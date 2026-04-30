@@ -203,6 +203,141 @@ const GAMES: Game[] = [
     url: 'https://kbhgames.com/stickman-hook/embed/',
     description: 'Swing like a spider and reach the finish line!',
     rating: 4.7
+  },
+  {
+    id: 'coreball',
+    title: 'Coreball',
+    category: 'Strategy',
+    thumbnail: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://coreball.io/',
+    description: 'The addictive ball-throwing strategy game.',
+    rating: 4.8
+  },
+  {
+    id: 'soccer-skills',
+    title: 'Soccer Skills World Cup',
+    category: 'Sports',
+    thumbnail: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/soccer-skills-world-cup/embed/',
+    description: 'Fast-paced soccer action with your favorite teams.',
+    rating: 4.7
+  },
+  {
+    id: 'eggy-car',
+    title: 'Eggy Car',
+    category: 'Racing',
+    thumbnail: 'https://images.unsplash.com/photo-1530906358829-e84b2769270f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/eggy-car/embed/',
+    description: 'Drive carefully and dont break the egg!',
+    rating: 4.6
+  },
+  {
+    id: 'idle-breakout',
+    title: 'Idle Breakout',
+    category: 'Casual',
+    thumbnail: 'https://images.unsplash.com/photo-1614850523459-c2f4c699952e?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/idle-breakout/embed/',
+    description: 'The classic breakout game with an idle twist.',
+    rating: 4.6
+  },
+  {
+    id: 'temple-run-2',
+    title: 'Temple Run 2',
+    category: 'Casual',
+    thumbnail: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/temple-run-2/embed/',
+    description: 'Navigate perilous cliffs, zip lines, and mines.',
+    rating: 4.7
+  },
+  {
+    id: 'crossy-road',
+    title: 'Crossy Road',
+    category: 'Casual',
+    thumbnail: 'https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/crossy-road/embed/',
+    description: 'Why did the chicken cross the road?',
+    rating: 4.8
+  },
+  {
+    id: 'getting-over-it',
+    title: 'Getting Over It',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/getting-over-it/embed/',
+    description: 'Climb a mountain with nothing but a hammer.',
+    rating: 4.2
+  },
+  {
+    id: 'a-small-world-cup',
+    title: 'A Small World Cup',
+    category: 'Sports',
+    thumbnail: 'https://images.unsplash.com/photo-1552667466-07770ae110d0?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/a-small-world-cup/embed/',
+    description: 'Simple soccer game with ragdoll physics.',
+    rating: 4.7
+  },
+  {
+    id: 'shell-shockers',
+    title: 'Shell Shockers',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop',
+    url: 'https://shellshock.io/',
+    description: 'The worlds first egg-based multiplayer shooter!',
+    rating: 4.9
+  },
+  {
+    id: 'krunker',
+    title: 'Krunker.io',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop',
+    url: 'https://krunker.io/',
+    description: 'Fast-paced pixelated first-person shooter.',
+    rating: 4.8
+  },
+  {
+    id: 'pacman',
+    title: 'Pac-Man',
+    category: 'Retro',
+    thumbnail: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=800&auto=format&fit=crop',
+    url: 'https://madsandov.github.io/pacman/',
+    description: 'The definitive retro arcade experience.',
+    rating: 4.9
+  },
+  {
+    id: 'flappy-bird',
+    title: 'Flappy Bird',
+    category: 'Retro',
+    thumbnail: 'https://images.unsplash.com/photo-1614850523459-c2f4c699952e?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/flappy-bird/embed/',
+    description: 'Tap to flap and avoid the pipes.',
+    rating: 4.5
+  },
+  {
+    id: 'angry-birds',
+    title: 'Angry Birds',
+    category: 'Casual',
+    thumbnail: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/angry-birds-hd/embed/',
+    description: 'Launch birds at the pigs to save the eggs!',
+    rating: 4.8
+  },
+  {
+    id: 'paper-io-3d',
+    title: 'Paper.io 3D',
+    category: 'Strategy',
+    thumbnail: 'https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=800&auto=format&fit=crop',
+    url: 'https://paper-io.com/3d/',
+    description: 'Conquer the 3D surface in this IO sequel.',
+    rating: 4.6
+  },
+  {
+    id: 'voxel-world',
+    title: 'Voxel World',
+    category: 'Casual',
+    thumbnail: 'https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/voxel-world/embed/',
+    description: 'Build and explore in this blocky open world.',
+    rating: 4.7
   }
 ];
 
