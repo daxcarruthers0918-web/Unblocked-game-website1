@@ -1,0 +1,9 @@
+{
+  "name": "IWillMakeANewOneEveryTimeItGetsBlocked",
+  "description": "A resilient unblocked games portal designed to provide constant access to fun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "Gaming",
+    "Entertainment"
+  ]
+}
