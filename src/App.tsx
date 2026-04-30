@@ -18,7 +18,7 @@ import {
   ChevronRight,
   Sparkles
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useMemo } from 'react';
 
 // Types
@@ -337,6 +337,114 @@ const GAMES: Game[] = [
     thumbnail: 'https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?q=80&w=800&auto=format&fit=crop',
     url: 'https://kbhgames.com/voxel-world/embed/',
     description: 'Build and explore in this blocky open world.',
+    rating: 4.7
+  },
+  {
+    id: 'bitlife',
+    title: 'BitLife',
+    category: 'Strategy',
+    thumbnail: 'https://images.unsplash.com/photo-1512428559083-a400a4b82c97?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/bitlife-life-simulator/embed/',
+    description: 'How will you live your BitLife?',
+    rating: 4.8
+  },
+  {
+    id: 'run-3',
+    title: 'Run 3',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1614850523459-c2f4c699952e?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/run-3/embed/',
+    description: 'Run, jump and ignore gravity in this space runner.',
+    rating: 4.9
+  },
+  {
+    id: 'retro-bowl',
+    title: 'Retro Bowl',
+    category: 'Sports',
+    thumbnail: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/retro-bowl/embed/',
+    description: 'Manage your own football team in this retro-style game.',
+    rating: 4.9
+  },
+  {
+    id: 'smash-karts',
+    title: 'Smash Karts',
+    category: 'Racing',
+    thumbnail: 'https://images.unsplash.com/photo-1530906358829-e84b2769270f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://smashkarts.io/',
+    description: '3D multiplayer kart battle game.',
+    rating: 4.7
+  },
+  {
+    id: 'tunnel-rush',
+    title: 'Tunnel Rush',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/tunnel-rush/embed/',
+    description: 'Avoid obstacles in a high-speed neon tunnel.',
+    rating: 4.8
+  },
+  {
+    id: '1v1-lol',
+    title: '1v1.LOL',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop',
+    url: 'https://1v1.lol/',
+    description: 'Build and shoot in this competitive battle royale.',
+    rating: 4.7
+  },
+  {
+    id: 'snow-rider-3d',
+    title: 'Snow Rider 3D',
+    category: 'Racing',
+    thumbnail: 'https://images.unsplash.com/photo-1551698618-1fed5d965596?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/snow-rider-3d/embed/',
+    description: 'Ride your sled down the mountain and avoid obstacles.',
+    rating: 4.8
+  },
+  {
+    id: 'drift-hunters',
+    title: 'Drift Hunters',
+    category: 'Racing',
+    thumbnail: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/drift-hunters/embed/',
+    description: 'Customizable drift cars and various tracks.',
+    rating: 4.9
+  },
+  {
+    id: 'basket-bros',
+    title: 'Basket Bros',
+    category: 'Sports',
+    thumbnail: 'https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/basket-bros/embed/',
+    description: 'Fast-paced legendary basketball game.',
+    rating: 4.7
+  },
+  {
+    id: '2048',
+    title: '2048',
+    category: 'Strategy',
+    thumbnail: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/2048-game/embed/',
+    description: 'Slide the tiles and merge them to reach 2048.',
+    rating: 4.8
+  },
+  {
+    id: 'rooftop-snipers',
+    title: 'Rooftop Snipers',
+    category: 'Action',
+    thumbnail: 'https://images.unsplash.com/photo-1595152230661-ca3694f297e6?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/rooftop-snipers/embed/',
+    description: 'Shoot your opponent off the roof in this pixelated duel.',
+    rating: 4.6
+  },
+  {
+    id: 'soccer-random',
+    title: 'Soccer Random',
+    category: 'Sports',
+    thumbnail: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=800&auto=format&fit=crop',
+    url: 'https://kbhgames.com/soccer-random/embed/',
+    description: 'Hilarious one-button soccer game.',
     rating: 4.7
   }
 ];
